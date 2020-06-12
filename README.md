@@ -9,11 +9,20 @@ Git training
 3. When ls -la is given in the terminal it gives the file and also **.git**.
 This **.git** is repository which tracks all our changes.
 4. Initiallizing the directory will make the git to track the changes.
-5. To avoid certain files from adding to the repository , use **.gitignore** . This will create an ignore file , a text file which contains the extensions of the files which we want to ignore while committing
-6. There are three stage
-  * working directory
-  * stagging Area
-  * .git directory(repository)
+5. To avoid certain files from adding to the repository , use **.gitignore** . This will create an ignore file , a text file which contains the extensions of the files which we want to ignore while committing.
+6. There are three stages,
+	  * working directory
+	  * stagging Area
+	  * .git directory(repository)
+7. So whenever we have to  commit , it consist of two steps,
+		1.	Commit changes 
+			$ git diff
+			$ git status
+			$ git add -A
+			$ git commit -m "Mention the change here! "
+		2. 	Then Push
+			$ git pull origin master
+			$ git push origin mastr
 
 Commands::grinning:
 
