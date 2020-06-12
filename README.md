@@ -15,14 +15,14 @@ This **.git** is repository which tracks all our changes.
 	  * stagging Area
 	  * .git directory(repository)
 7. So whenever we have to  commit , it consist of two steps,
-		1.	Commit changes 
-			$ git diff
-			$ git status
-			$ git add -A
-			$ git commit -m "Mention the change here! "
-		2. 	Then Push
-			$ git pull origin master
-			$ git push origin mastr
+	* Commit changes 
+		* $ git diff
+		* $ git status
+		* $ git add -A
+		* $ git commit -m "Mention the change here! "
+	* Then Push
+		* $ git pull origin master
+		* $ git push origin mastr
 
 Commands::grinning:
 
